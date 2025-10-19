@@ -31,3 +31,13 @@ a:hover {
     color: var(--branch-color);
     text-decoration: underline;
 }
+
+.conteiner {
+    padding: 32px;
+    width: 1280px;
+    margin-inline: auto;
+}
+
+.surface {
+    background-color: var(--surface-color);
+}
