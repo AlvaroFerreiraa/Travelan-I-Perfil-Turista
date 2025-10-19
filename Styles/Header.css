@@ -8,8 +8,15 @@ header div {
 }
 
 #profile {
+
     display: flex;
     padding: 32px;
+}
+#profile img {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 h1 {
@@ -30,8 +37,8 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 70px 0 0 0;
-    margin-right: 400px;
+    padding: 70px 220px 0px 0px;
+   
 }
 .info li {
     display: flex;
