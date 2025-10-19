@@ -22,3 +22,12 @@ body {
     color: var(--text-color);
     font-family: var(--font-family);
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover { 
+    color: var(--branch-color);
+    text-decoration: underline;
+}
