@@ -1,0 +1,41 @@
+header {
+    padding-block: 16px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile {
+    display: flex;
+    padding: 32px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+#profile div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 34px;
+    margin-top: 8px;
+}
+#profile>div {
+    max-width: 384px;
+}
+.info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 70px 0 0 0;
+    margin-right: 400px;
+}
+.info li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
